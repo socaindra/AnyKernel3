@@ -41,6 +41,18 @@ patch_vbmeta_flag=auto;
 # boot install
 dump_boot; # use split_boot to skip ramdisk unpack, e.g. for devices with init_boot ramdisk
 
+## Get Android version (DO NOT CHANGE)
+# begin checker android version
+android_ver="$(file_getprop /system/build.prop ro.build.version.release)"
+
+# cleanup first
+patch_cmdline "androidboot.version" ""
+
+if [ ! -z "$android_ver" ]; then
+	patch_cmdline "androidboot.version" "androidboot.version=$android_ver"
+fi
+#end checker android version
+
 write_boot; # use flash_boot to skip ramdisk repack, e.g. for devices with init_boot ramdisk
 ## end boot install
 
