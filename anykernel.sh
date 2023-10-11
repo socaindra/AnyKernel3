@@ -47,9 +47,16 @@ android_ver="$(file_getprop /system/build.prop ro.build.version.release)"
 
 # cleanup first
 patch_cmdline "androidboot.version" ""
+patch_cmdline "led.vibration" ""
 
 if [ ! -z "$android_ver" ]; then
 	patch_cmdline "androidboot.version" "androidboot.version=$android_ver"
+fi
+
+if [ "$android_ver" -lt "11" ]; then
+	patch_cmdline "led.vibration" "led.vibration=0"
+else
+	patch_cmdline "led.vibration" "led.vibration=1"
 fi
 #end checker android version
 
