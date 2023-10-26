@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=QuicksilveR-KSU by ghostrider-reborn
+kernel.string=QuicksilveRV2-KSU by ghostrider-reborn
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -15,7 +15,7 @@ device.name2=willow
 device.name3=
 device.name4=
 device.name5=
-supported.versions=11.0-13.0
+supported.versions=12.0-13.0
 supported.patchlevels=
 supported.vendorpatchlevels=
 '; } # end properties
