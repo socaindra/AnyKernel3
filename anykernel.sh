@@ -4,17 +4,17 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=QuicksilveRV2-KSU by ghostrider-reborn
+kernel.string=Zeus Kernel-KSU by karthik1896 | @le_heisenberg
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=ginkgo
-device.name2=willow
-device.name3=
-device.name4=
-device.name5=
+device.name1=X00T
+device.name2=X00TD
+device.name3=asus_X00T
+device.name4=asus_X00TD
+device.name5=asus_X00TDA
 supported.versions=12.0-13.0
 supported.patchlevels=
 supported.vendorpatchlevels=
