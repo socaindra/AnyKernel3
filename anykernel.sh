@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=QuicksilveRV2-KSU by ghostrider-reborn
+kernel.string=SurgeX-KSU by MADMAX
 do.devicecheck=1
 do.modules=0
 do.systemless=1
