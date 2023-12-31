@@ -15,7 +15,7 @@ device.name2=X00TD
 device.name3=asus_X00T
 device.name4=asus_X00TD
 device.name5=asus_X00TDA
-supported.versions=12.0-13.0
+supported.versions=10.0-13.0
 supported.patchlevels=
 supported.vendorpatchlevels=
 '; } # end properties
