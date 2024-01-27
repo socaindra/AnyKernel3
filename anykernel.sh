@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=Zeus Kernel-KSU by karthik1896 | @le_heisenberg
+kernel.string=Intense Kernel-KSU by vermouth@reductize
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -15,7 +15,7 @@ device.name2=X00TD
 device.name3=asus_X00T
 device.name4=asus_X00TD
 device.name5=asus_X00TDA
-supported.versions=10.0-13.0
+supported.versions=9.0-13.0
 supported.patchlevels=
 supported.vendorpatchlevels=
 '; } # end properties
