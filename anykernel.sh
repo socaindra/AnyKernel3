@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=QuicksilveRV2-KSU by ghostrider-reborn
+kernel.string=QuicksilveRV2-Kernel by ghostrider-reborn
 do.devicecheck=1
 do.modules=0
 do.systemless=1
